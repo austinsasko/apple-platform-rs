@@ -66,7 +66,7 @@ signing Mach-O binary at index 0
 binary targets macOS >= 11.0.0 with SDK 11.0.0
 creating ad-hoc signature
 code directory version: 132096
-total signature size: 405 bytes
+total signature size: 421 bytes
 writing signed main executable to MyApp.app.signed/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app/Contents/MacOS/Autoupdate
 leaving nested bundle MyApp.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/Autoupdate.app
 entering nested bundle MyApp.app/Contents/Frameworks/Sparkle.framework/Versions/A
