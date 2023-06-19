@@ -22,6 +22,7 @@ Released on ReleaseDate.
 * The `--code-signature-flags` argument of the `sign` command now correctly
   applies multiple values. Before, flags were set to the final specified
   value.
+* The `--data` argument of the `extract` command is now a positional argument.
 * cryptographic-message-syntax 0.19 -> 0.23.
 * once_cell 1.16 -> 1.17.
 * p256 0.11 -> 0.13.
