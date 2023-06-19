@@ -18,19 +18,19 @@ bzip2 = "0.4.4"
 chrono = { version = "0.4.26", features = ["serde"] }
 cryptographic-message-syntax = "0.23.0"
 digest = "0.10.7"
-log = "0.4.18"
+log = "0.4.19"
 md-5 = "0.10.5"
 flate2 = "1.0.26"
 rand = "0.8.5"
 reqwest = { version = "0.11.18", default-features = false }
 scroll = { version = "0.11.0", features = ["derive"] }
 serde-xml-rs = "0.6.0"
-serde = { version = "1.0.163", features = ["derive"] }
+serde = { version = "1.0.164", features = ["derive"] }
 sha1 = "0.10.5"
-sha2 = "0.10.6"
+sha2 = "0.10.7"
 signature = { version = "2.1.0", features = ["std"] }
 thiserror = "1.0.40"
-url = "2.3.1"
+url = "2.4.0"
 xml-rs = "0.8.14"
 x509-certificate = "0.20.0"
 xz2 = { version = "0.1.7", features = ["static"] }
