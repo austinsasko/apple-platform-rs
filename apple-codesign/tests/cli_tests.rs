@@ -9,7 +9,7 @@ use {
 };
 
 /// List of coreutils binaries to materialize in trycmd test environments.
-const COREUTILS_BINARIES: [&str; 6] = ["cp", "hashsum", "ln", "mkdir", "sort", "test"];
+const COREUTILS_BINARIES: [&str; 7] = ["cat", "cp", "hashsum", "ln", "mkdir", "sort", "test"];
 
 /// Ensures Rust coreutils multicall binary is available.
 ///
