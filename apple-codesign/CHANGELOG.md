@@ -14,6 +14,9 @@ Released on ReleaseDate.
   CLI behavior. However, some minor changes - possibly bugs - may have
   occurred as a result of this refactor.
 * `AppleCodesignError::AwsS3Error` now stores a `Box<T>`.
+* Added a hidden `debug-create-macho` command for generating Mach-O files.
+  The command (and new code behind it) is intended to facilitate writing
+  tests of Mach-O signing.
 * cryptographic-message-syntax 0.19 -> 0.23.
 * once_cell 1.16 -> 1.17.
 * p256 0.11 -> 0.13.
