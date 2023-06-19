@@ -23,6 +23,8 @@ Released on ReleaseDate.
   applies multiple values. Before, flags were set to the final specified
   value.
 * The `--data` argument of the `extract` command is now a positional argument.
+* Added a hidden `debug-create-code-requirements` command for generating
+  binary code requirements files. The command is intended to facilitate testing.
 * cryptographic-message-syntax 0.19 -> 0.23.
 * once_cell 1.16 -> 1.17.
 * p256 0.11 -> 0.13.
