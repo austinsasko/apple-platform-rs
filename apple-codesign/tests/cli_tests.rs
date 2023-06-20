@@ -9,7 +9,9 @@ use {
 };
 
 /// List of coreutils binaries to materialize in trycmd test environments.
-const COREUTILS_BINARIES: [&str; 7] = ["cat", "cp", "hashsum", "ln", "mkdir", "sort", "test"];
+const COREUTILS_BINARIES: [&str; 9] = [
+    "cat", "cp", "hashsum", "ln", "ls", "mkdir", "sort", "test", "touch",
+];
 
 /// Ensures Rust coreutils multicall binary is available.
 ///
@@ -122,5 +124,10 @@ fn cli_tests() {
         cases.skip("tests/cmd/encode-app-store-connect-api-key.trycmd");
         cases.skip("tests/cmd/help.trycmd");
         cases.skip("tests/cmd/notary*.trycmd");
+    }
+
+    // Tests with `ln -s` may not work on Windows. So just skip them.
+    if cfg!(windows) {
+        cases.skip("tests/cmd/sign-bundle-framework.trycmd");
     }
 }
