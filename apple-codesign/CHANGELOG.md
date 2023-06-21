@@ -25,6 +25,9 @@ Released on ReleaseDate.
 * The `--data` argument of the `extract` command is now a positional argument.
 * Added a hidden `debug-create-code-requirements` command for generating
   binary code requirements files. The command is intended to facilitate testing.
+* The `print-signature-info` command should now work on bundles. It may have
+  stopped working as part of an upgrade to `serde_yaml`. The YAML output may
+  have changed slightly.
 * cryptographic-message-syntax 0.19 -> 0.23.
 * once_cell 1.16 -> 1.17.
 * p256 0.11 -> 0.13.
