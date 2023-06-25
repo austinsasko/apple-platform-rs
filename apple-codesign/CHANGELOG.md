@@ -30,6 +30,11 @@ Released on ReleaseDate.
   have changed slightly.
 * `CodeResources` files now emit `"` instead of `&quot;` for parity with Apple
   tooling.
+* SHA-1 digests are now automatically enabled when signing a Mach-O binary
+  without platform targeting. This mimics the behavior of Apple's tooling.
+  Before, we would only automatically activate SHA-1 digests when there was
+  a Mach-O load command targeting a too-old platform version which didn't
+  support SHA-256 digests.
 * cryptographic-message-syntax 0.19 -> 0.23.
 * once_cell 1.16 -> 1.17.
 * p256 0.11 -> 0.13.
