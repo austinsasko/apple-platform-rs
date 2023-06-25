@@ -38,6 +38,8 @@ Released on ReleaseDate.
 * An empty CMS blob is now automatically added when signing in ad-hoc mode.
   Before, no CMS blob would be present. The new behavior matches that of
   Apple's tooling.
+* Code signature data is now aligned to 16 byte boundaries in Mach-O binaries.
+  This matches the behavior of Apple tooling.
 * cryptographic-message-syntax 0.19 -> 0.23.
 * once_cell 1.16 -> 1.17.
 * p256 0.11 -> 0.13.
