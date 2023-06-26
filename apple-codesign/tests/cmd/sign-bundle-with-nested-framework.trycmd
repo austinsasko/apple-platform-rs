@@ -109,6 +109,7 @@ Contents/Info.plist is the Info.plist file; handling specially
 copying file MyApp.app/Contents/Info.plist -> MyApp.app.signed/Contents/Info.plist
 sealing regular file Resources/AppIcon.icns
 copying file MyApp.app/Contents/Resources/AppIcon.icns -> MyApp.app.signed/Contents/Resources/AppIcon.icns
+reading code signature from main executable Sparkle
 Error: I/O error: No such file or directory (os error 2)
 
 ```
